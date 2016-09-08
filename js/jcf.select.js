@@ -68,7 +68,7 @@ jcf.addModule(function($, window) {
 			useCustomScroll: true,
 			flipDropToFit: true,
 			maxVisibleItems: 10,
-			fakeAreaStructure: '<span class="jcf-select"><span class="jcf-select-text" aria-hidden="true"></span><span class="jcf-select-opener"></span></span>',
+			fakeAreaStructure: '<span class="jcf-select"><span class="jcf-select-text" aria-hidden="true"></span><span class="jcf-select-opener" aria-hidden="true"></span></span>',
 			fakeDropStructure: '<div class="jcf-select-drop"><div class="jcf-select-drop-content"></div></div>',
 			optionClassPrefix: 'jcf-option-',
 			selectClassPrefix: 'jcf-select-',
